@@ -1,0 +1,67 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    
+    
+  }
+header{
+    overflow: hidden;
+background:linear-gradient(to right,rgb(0, 129, 1),rgb(40, 182, 12));
+padding: 50px 10px;
+transition: 0.4s;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 100;
+}
+header a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    Line-height: 25px;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+header a:hover{
+background-color: #ddd;
+
+}
+.menu{
+    float: right;
+    margin-right: 5%;
+
+}
+.logoimg{
+    width: auto;
+    height: 88px;
+    margin-left: 2%;
+}
+.Txt{
+    float: right;
+    color: white;
+    width: 6%;
+    font-size: 30px;
+    margin: 0;
+    left: 11%;
+    top: 40%;
+    position: absolute;
+}
+.Txt1{
+    float: right;
+    color: white;
+    width: 27%;
+    font-size: 25px;
+    margin: 0;
+    left: 11%;
+    top: 56%;
+    position: absolute;
+}
+.caixasobre{
+    background-color: whitesmoke;
+    color: #000;
+    
+}
